@@ -1,0 +1,22 @@
+import math
+import turtle
+window = turtle.Screen()
+window.bgcolor("red")
+brad=turtle.Turtle()
+brad.left(135)
+brad.color("blue", "green")
+for i in range(6):
+    for i in range(6):
+        brad.forward(50)
+        brad.left(10)
+    brad.left(120)
+    for i in range(6):
+        brad.forward(50)
+        brad.left(10)
+    brad.color("blue", "green")
+    brad.begin_fill ()    
+    brad.left(90)
+brad.right(50)    
+for i in range(6):
+        brad.forward(50)
+        brad.left(10)
